@@ -2,23 +2,45 @@ doctype html
 html
   head
     title Portfolio
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://kit.fontawesome.com/a076d05399.js')
   body
     .effect1
-    #navigationBar.navigationBar
-      ul
-        li
-          a(href='') Home
-      ul
-        li
-          a(href='') Projects
-      ul
-        li
-          a(href='') About Me
-      ul
-        li
-          a(href='') Services
-      ul
-        li
-          a(href='')  Contact Me
-	
+    nav#navigation.navbar.navbar-expand-lg.full-width
+      a.navbar-brand(href='html/aboutme.html') ARPIT
+      #navbarNav.collapse.navbar-collapse
+        ul.navbar-nav
+          li.nav-item.active
+            a.nav-link(href='index.html') Home
+          li.nav-item
+            a.nav-link(href='html/aboutme.html') About Me
+          li.nav-item
+            a.nav-link(href='html/project.html') Projects
+          li.nav-item
+            a.nav-link(href='html/project.html') Services
+          li.nav-item
+            a.nav-link(href='html/contact.html') Contact
+    #about.section
+      .container
+        .row
+          .col-md-5
+            img.myPhoto(src='/images/profile1.jpeg')
+          .col-md-7
+            h3 It's About Myself!
+            h4 Web Developer!! && iOS Developer!!
+            p
+              | Hi Eveyone..! I am Arpit@!!. I am a Computer Programmer Analyst(COPA) Student in Georgian College, which is located in Barrie. In Georgian college, I have learned some excellent skills in programming language. I have detail knowledge in HTML5 & CSS3 & JavaScript, which I love to work with it!!. I also have brief knowledge in programming language like Java, ASP.NET Framework, C# & also have knowledge in MySQL Database. I am instereted in iOS development, so I am currently working on Swift launguage. Also, making some application which is based on swift language!!!. I can design eye attractive websites @lso!!
+            .pranav
+              a(href='https://www.facebook.com/profile.php?id=100027075524795')
+                i.fab.fa-facebook
+              a(href='https://github.com/ArpitPatel77')
+                i.fab.fa-github-square
+              a(href='https://www.instagram.com/arpit_patel_77/')
+                i.fab.fa-instagram
+              a(href='https://www.linkedin.com/in/arpit-patel-a59a62170/')
+                i.fab.fa-linkedin
+            .secondButton
+              ul.secondButton
+                li
+                  a(href='html/aboutme.html') More About Me
