@@ -1,0 +1,57 @@
+doctype html
+html
+	head
+		title Portfolio
+		link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+		link(rel='stylesheet', href='/stylesheets/contact.css')
+		script(src='https://kit.fontawesome.com/a076d05399.js')
+	body
+		include partials/header.pug
+		.effect1
+		.hill
+			.dhruv
+				.milan
+					p.arpit ARPIT PATEL
+					p.dhwanil Web Developer && iOS Developer
+			.tirth
+				a(href='https://www.facebook.com/profile.php?id=100027075524795')
+					i.fab.fa-facebook
+				a(href='https://github.com/ArpitPatel77')
+					i.fab.fa-github-square
+				a(href='https://www.instagram.com/arpit_patel_77/')
+					i.fab.fa-instagram
+				a(href='https://www.linkedin.com/in/arpit-patel-a59a62170/')
+					i.fab.fa-linkedin
+			.firstButton
+				ul.firstButton
+					li
+						a(href='./projects') PORTFOLIO
+					li
+						a(href='./about') ABOUT ME
+#contact.contactSection.section
+	.col-md-12.text-center
+		h2 Let's Get in Touch
+	.row.contactInfo
+		.col-md-4.text-center
+			.contact-email
+				i.fa.fa-envelope
+				| 					E-mail
+			p arpitkpatel77@gmail.com
+		.col-md-4.text-center
+			.contact-address
+				i.fas.fa-home
+				| 					Address
+			p 44 Jeffrey Street, Barrie, Ontario, L4M 4L3
+		.col-md-4.text-center
+			.contact-phone
+				i.fas.fa-phone
+				| 					Phone
+			p +1(705)500-3770
+		.col-md-6
+			input#name(type='text', name='name', placeholder='Enter Your Name:')
+		.col-md-6
+			input#email(type='email', name='email', placeholder='Enter Your E-mail:')
+		.col-md-12.thirdButton.text-center
+			textarea#message(name='message', rows='7', placeholder='Enter Your Message', spellcheck='false')
+			input#thirdButton(type='submit', value='Message Send!!')
+include partials/footer.pug
