@@ -1,0 +1,82 @@
+doctype html
+html
+	head
+		title About Me
+		link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+		link(rel='stylesheet', href='/stylesheets/about.css')
+		script(src='https://kit.fontawesome.com/a076d05399.js')
+	body
+	include partials/header.pug
+	.effect1
+	.hill
+		.dhruv
+			.milan
+				p.arpit ARPIT PATEL
+				p.dhwanil Web Developer && iOS Developer
+		.tirth
+			a(href='https://www.facebook.com/profile.php?id=100027075524795')
+				i.fab.fa-facebook
+			a(href='https://github.com/ArpitPatel77')
+				i.fab.fa-github-square
+			a(href='https://www.instagram.com/arpit_patel_77/')
+				i.fab.fa-instagram
+			a(href='https://www.linkedin.com/in/arpit-patel-a59a62170/')
+				i.fab.fa-linkedin
+		.firstButton
+			ul.firstButton
+				li
+					a(href='../html/project.html') PORTFOLIO
+				li
+					a(href='../html/contact.html') CONTACT ME
+		#about.section
+			.container
+				.row
+					.col-md-5
+						img.myPhoto(src='/images/profile2.jpg')
+					.col-md-7
+						h3 Arpit KamalKumar Patel
+						h4 Web Developer!! && iOS Developer!!
+						p
+							| Howdy Eveyone..! I am Arpit@!!. I am a Computer Programmer Analyst(COPA) Student in Georgian College, which is situated in Barrie. In Georgian school, I gain proficiency with some incredible abilities in programming launguage. I have detail know in HTML5 and CSS3 and JavaScript, which I want to work with it!!. I additionally have brief learning in programming launguage like Java, ASP.NET Framework, C# and likewise have information in MySQL Database. I am instereted in iOS advancement, so I am current chipping away at Swift launguage. Likewise, making some application which can be create by swift!!!. I can configuration eye appealing sites @lso!
+						.pranav
+							a(href='https://www.facebook.com/profile.php?id=100027075524795')
+								i.fab.fa-facebook
+							a(href='https://github.com/ArpitPatel77')
+								i.fab.fa-github-square
+							a(href='https://www.instagram.com/arpit_patel_77/')
+								i.fab.fa-instagram
+							a(href='https://www.linkedin.com/in/arpit-patel-a59a62170/')
+								i.fab.fa-linkedin
+						.secondButton
+							ul.secondButton
+								li
+									a(href='../html/contact.html') Contact Me
+		#experince.experinceSection.section
+			.col-md-12
+				.contain.text-center
+					h2 SOME OF MY GOOD SKILLS!!
+			.row
+				.col-md-4.text-center
+					.box
+						.icon
+							i.fab.fa-apple
+						h5.display-name SWIFT-iOS Developing
+						p.display-description
+							| "Developing the projects and application based on swift launguage using Xcode!! for the Apple devices."
+				.col-md-4.text-center
+					.box
+						.icon
+							i.fab.fa-html5
+							i.fab.fa-css3-alt
+						h5.display-name HTML5 & CSS3
+						p.display-description
+							| "Developing responsive web sites using HTML and design those web sites using CSS!! for clients."
+				.col-md-4.text-center
+					.box
+						.icon
+							i.fab.fa-js-square
+						h5.display-name JavaScript
+						p.display-description
+							| "Developing the projects and web sites using JavaScrpit to make it responcive and mouse sensitive!!."
+
+include partials/footer.pug
