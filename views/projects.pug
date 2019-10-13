@@ -1,0 +1,84 @@
+doctype html
+html
+	head
+		title Portfolio
+		link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+		link(rel='stylesheet', href='/stylesheets/projects.css')
+		script(src='https://kit.fontawesome.com/a076d05399.js')
+	body
+		include partials/header.pug
+		.effect1
+		.hill
+			.dhruv
+				.milan
+					p.arpit ARPIT PATEL
+					p.dhwanil Web Developer && iOS Developer
+			.tirth
+				a(href='https://www.facebook.com/profile.php?id=100027075524795')
+					i.fab.fa-facebook
+				a(href='https://github.com/ArpitPatel77')
+					i.fab.fa-github-square
+				a(href='https://www.instagram.com/arpit_patel_77/')
+					i.fab.fa-instagram
+				a(href='https://www.linkedin.com/in/arpit-patel-a59a62170/')
+					i.fab.fa-linkedin
+			.firstButton
+				ul.firstButton
+					li
+						a(href='../index.html') ARPIT PATEL
+					li
+						a(href='../html/aboutme.html') ABOUT ME
+#project.projectSection.section
+	.col-md-12.text-center
+		h2 PROJECT
+	.row
+		.innerPost.col-md-4
+			.innerImg
+				img(src='/images/ss1.png')
+			.innerName
+				h5 Furniture Store Application
+			.innerContent
+				p "Build an Furniture store app using ASP.NET & MySQL with my group!."
+		.innerPost.col-md-4
+			.innerImg
+				img(src='/images/ss2.png')
+			.innerName
+				h5 Stone, Paper, Scissor Game
+			.innerContent
+				p "Build this game using JavaScript Framework based on server scripting!."
+		.innerPost.col-md-4
+			.innerImg
+				img(src='/images/ss3.png')
+			.innerName
+				h5 To Do List
+			.innerContent
+				p "Build this online To Do List application, which can add or delete you list!."
+#experince.experinceSection.section
+	.col-md-12
+		.contain.text-center
+			h2 SOME OF MY PROJECT BASED ON LAUNGUAGES!!
+	.row
+		.col-md-4.text-center
+			.box
+				.icon
+					i.fab.fa-apple
+				h5.display-name Calculator using SWIFT
+				p.display-description
+					| "I had made Calculator for Apple Store by using my knowledge on Swift launguage!."
+		.col-md-4.text-center
+			.box
+				.icon
+					i.fab.fa-html5
+					i.fab.fa-css3-alt
+				h5.display-name Portfolio by HTML5 & CSS3
+				p.display-description
+					| "I had made this Portfolio using my knowledge on HTML5 & CSS3!!."
+		.col-md-4.text-center
+			.box
+				.icon
+					i.fab.fa-js-square
+				h5.display-name Responsive Portfolio using JavaScript
+				p.display-description
+					| "I had my Portfolio responsive by using JavaScript syantax!!."
+
+include partials/footer.pug
